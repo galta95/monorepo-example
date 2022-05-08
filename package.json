@@ -1,0 +1,18 @@
+{
+    "name": "mono-nest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "turbo run build",
+        "prestart": "pnpm build",
+        "start": "pnpm -r run start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "turbo": "^1.2.8"
+    }
+}
