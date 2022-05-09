@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "turbo run build",
         "prestart": "pnpm build",
-        "start": "pnpm -r run start"
+        "start:all": "pnpm -r run start"
     },
     "keywords": [],
     "author": "",
